@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/stylesss.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg" id="navBG">
+        <section class="container-fluid">
+          <a class="navbar-brand" href="indexxx.html"> <img src="assets/myLogoOrange.png" alt="my Logo Orange" width="24" height="24" class="d-inline-block align-text-top"> Jessica Abad</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="indexxx.html">Home</a>
+              </li>
+            </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+             </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#project-slider">Branding</a></li>
+                  <li><a class="dropdown-item" href="#project-slider">Package</a></li>
+                  <li><a class="dropdown-item" href="#project-slider">Illustration</a></li>
+                  <li><a class="dropdown-item" href="#project-slider">UI/UX</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#project-slider">Website</a></li>
+                </ul>
+              </li>
+            </ul>
+        </section>
+    </section>
+      </nav>
+    <!-- NAVBAR END -->
+
+    <!-- BANNER START -->
+    <section class="home">
+      <section class="home-text">
+        <h1 id="titleAnimate" >HELLO I AM </h1>
+          <h3 class="textAnimate"> <span>
+              <span>A DEVELOPER</span>
+              <span>A DESIGNER</span>
+              <span>A PROGRAMMER</span>
+              <span>JESSICA ABAD</span>
+          </span>
+        </h3>
+        <p>A graphic and web designer specializing in minimal, luxurious, and corporate aesthetics. With clarity, sophistication, and precision, I craft designs that are both functional and visually compelling—bringing brands to life and telling their story through design.</p>
+        <section class="home-btn">
+          <a href="#footer-info" class="btn">Contact Info</a>
+          <a href="#" class="btn">Download CV <i class="ph ph-read-cv-logo"></i></a>
+        </section>
+      </section>
+      <section class="home-img">
+        <img src="assets/myLogoBlue.png">
+      </section>
+    </section>
+
+    <section class="socials-icons">
+      <a href="https://www.instagram.com/abadj.design?igsh=dGd4YzV1dDVvdmhq&utm_source=qr" target="_blank"><i class="ph-bold ph-instagram-logo"></i></a>
+      <a href="#"><i class="ph-bold ph-linkedin-logo"></i></a>
+      <a href="#"><i class="ph-bold ph-github-logo"></i></a>
+    </section>
+    <a href="#skills-banner" class="scroll-btn">Scroll down
+      <i class="ph-bold ph-arrow-bend-right-down"></i>
+    </a>
+    <!-- BANNER END -->
+
+    <!-- SKILLS BANNER START -->
+    <section class="skills-container" id="skills-banner">
+      <img src="assets/soft-and-technical-skills.jpg">
+    </section>
+    <!-- SKILLS BANNER END -->
+
+    <!-- IN MY BAG START -->
+     <section class="inMyBag-container">
+      <img src="assets/whats-in-my-bag-smaller.jpg">
+    </section>
+    <!-- IN MY BAG END -->
+
+
+  <!-- PROJECT SLIDER WITH MODALS START -->
+<section class="slider-container" id="project-slider">
+  <section class="slider-image">
+    <!-- Slider Items -->
+    <article class="slider-img" data-bs-toggle="modal" data-bs-target="#modal1">
+      <img src="assets/slider-1.jpg" alt="1">
+      <h1 class="verticalText">EDITORIAL</h1>
+    </article>
+    <article class="slider-img" data-bs-toggle="modal" data-bs-target="#modal2">
+      <img src="assets/slider-2.jpg" alt="2">
+      <h1 class="verticalText">PACKAGING</h1>
+    </article>
+    <article class="slider-img" data-bs-toggle="modal" data-bs-target="#modal3">
+      <img src="assets/slider-3.jpg" alt="3">
+      <h1 class="verticalText" id="personalBranding">PERSONAL BRANDING</h1>
+    </article>
+    <article class="slider-img" data-bs-toggle="modal" data-bs-target="#modal4">
+      <img src="assets/slider-4.jpg" alt="4">
+      <h1 class="verticalText">WEBSITE</h1>
+    </article>
+    <article class="slider-img" data-bs-toggle="modal" data-bs-target="#modal5">
+      <img src="assets/slider-5.jpg" alt="5">
+      <h1 class="verticalText">BRANDING</h1>
+    </article>
+    <article class="slider-img" data-bs-toggle="modal" data-bs-target="#modal6">
+      <img src="assets/slider-6.jpg" alt="6">
+      <h1 class="verticalText" id="typography">TYPOGRAPHY</h1>
+    </article>
+  </section>
+</section>
+
+<!-- MODALS -->
+ <!-- EDITORIAL -->
+<div class="modal fade" id="modal1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-center">Editorial</h2>
+      </div>
+      <!-- BOOK COVER -->
+      <div class="modal-body">
+        <h5 class="modal-subheader"><b>BOOK COVER</b></h5>
+        <img src="assets/editorial/book-cover-flat-lay.jpg" alt="flat lay">
+        <img src="assets/editorial/book-cover-mock.jpg" alt="book cover mockup">
+          <!-- LIVE VIEW 3D MOCKUP -->
+        <video width="770" height="520" autoplay muted loop playsinline>
+          <source src="assets/editorial/book-cover.MOV" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+          <!-- TRIFOLD -->
+          <p></p>
+          <h5 class="modal-subheader"><b>TRI-FOLD BROCHURE</b></h5>
+          <img src="assets/editorial/tri-fold-outside-panel.jpg" alt="flat lay">
+          <img src="assets/editorial/tri-fold-inside-panel.jpg" alt="book cover mockup">
+
+           <!-- LIVE VIEW 3D MOCKUP -->
+        <video class="trifold-3d" width="745" height="440" autoplay muted loop playsinline>
+          <source src="assets/editorial/trifold.MOV" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+        
+          <script>
+            const video = document.querySelector('video');
+            video.playbackRate = 1.5;
+          </script>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PACKAGING -->
+<div class="modal fade" id="modal2">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-center">Packaging Design</h2>
+      </div>
+      <div class="modal-body">
+        <h6 class="modal-subtitle"><b>Lemon Twirl</b> is a fictional cracker brand created as a packaging design project. The main deliverable was to develop a new creative design, die-lines, and a production-ready file for a cracker. Inspired by the bright, zesty flavor, the design uses playful character illustrations and warm gradients to reflect a fun, approachable identity. The packaging balances clarity and personality, featuring clean layouts, custom type styling, and bilingual content to reflect a Canadian market.</h6>
+        <img src="assets/packaging/cracker-dieline.jpg" alt="empty dielines only">
+        <img src="assets/packaging/cracker-dieline-color.png" alt="final dieline">
+        <img src="assets/packaging/cracker-1.png" alt="cracker mockup">
+
+        <!-- LIVE VIEW 3D MOCKUP -->
+        <video width="800" height="520" autoplay muted loop playsinline>
+          <source src="assets/packaging/cracker.MOV" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+  
+        <h6 class="second-modal-subtitle"><b>Maplore</b>(Pronounced: "Mah-plor-ay") is a non-alcoholic beverage concept rooted in Canadian identity with a subtle French influence—hence the accented “é”. The design is clean and minimal, featuring a bold maple leaf as the focal point. Created to feel premium yet approachable, the Maple Golden Peach flavor highlights a natural, refined sweetness that reflects both the product and its heritage.</h6>
+        <img src="assets/packaging/popcan-dieline.png" alt="dielines">
+        <img src="assets/packaging/popcan-mock.png" alt="mockup">
+
+        <!-- LIVE VIEW 3D MOCKUP -->
+        <video width="800" height="500" autoplay muted loop playsinline>
+          <source src="assets/packaging/popcan.MOV" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PERSONAL BRANDING -->
+<div class="modal fade" id="modal3">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-center">Personal Branding</h2>
+      </div>
+      <div class="modal-body">
+        <h6 class="modal-subtitle"><b>Personal Branding</b> is a project focused on creating a visual identity that reflects my values as a graphic and web designer. The main deliverable was a personal logo and brand / style guide. The concept combines a stylized ‘J’ with a handshake, symbolizing both my initials and a collaborative spirit. I explored minimal, geometric forms and a bold three-tone palette to communicate professionalism with a creative edge. The brand system was built to be flexible and consistent across digital and print touch points.</h6>
+        <img src="assets/personal_branding/j-branding-drafts.jpg" alt="sketch">
+        <img src="assets/personal_branding/j-branding-style-guide.png" alt="">
+        <img src="assets/personal_branding/j-branding-mock.png" alt="mockup">
+        <img src="assets/personal_branding/j-branding-mock-2.png" alt="mockup">
+        <img src="assets/personal_branding/j-branding-mock-4.jpg" alt="mockup">
+        <img src="assets/personal_branding/j-branding-mock-3.png" alt="mockup">
+
+        <!-- WEBSITE LIVE VIEW VIDEO 1 -->
+          <video width="760" height="460" autoplay muted loop playsinline>
+          <source src="assets/personal_branding/cover-letter.MOV" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+        <!-- WEBSITE LIVE VIEW VIDEO 2 -->
+          <video class="resume-3d" width="830" height="640" autoplay muted loop playsinline>
+          <source src="assets/personal_branding/resume.MOV" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WEBSITE / REBRANDING -->
+<div class="modal fade" id="modal4">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-center">Website / Rebranding</h2>
+      </div>
+      <div class="modal-body">
+        <h6 class="modal-subtitle"><b>Prime Tech</b> is a personal rebranding project for a client seeking a full transformation of their existing PC brand, formerly known as EdgePC. The main deliverable was a complete rebrand — name, logo, and website. I came up with the name Prime Tech to represent being the best in the tech industry. The design focuses on a bold and high-energy look, made to grab the attention of <b>PC gamers</b>. I used bright colors, strong visuals, and a more modern layout to give the brand a fresh, exciting feel that connects better with its <b>target audience.</b></h6>
+        <img src="assets/website/website-sitemap.jpg" alt="sitemap">
+        <p class="middle-text-info">Before & After</p>
+        <img src="assets/website/before-and-after.jpg" alt="before and after">
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CORPORATE LOGO -->
+<div class="modal fade" id="modal5">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-center">Corporate Logo</h2>
+      </div>
+      <div class="modal-body">
+        <h6 class="modal-subtitle"><b>Sweep & Scrub</b> is a personal rebranding project for a client seeking a full transformation of their existing PC brand, formerly known as EdgePC. The main deliverable was a complete rebrand — name, logo, and website. I came up with the name Prime Tech to represent being the best in the tech industry. The design focuses on a bold and high-energy look, made to grab the attention of <b>PC gamers</b>. I used bright colors, strong visuals, and a more modern layout to give the brand a fresh, exciting feel that connects better with its <b>target audience.</b></h6>
+        <img src="assets/corporate-logo/corp-sketches.png" alt="sketch">
+        <img src="assets/corporate-logo/corp-grayscale.png" alt="grayscale">
+        <img src="assets/corporate-logo/corp-final-colour.png" alt="colored version of logo">
+        <img src="assets/corporate-logo/ad-campaign.png" alt="3 ad">
+
+        <!-- FOR THE WEBSITE LIVE VIEW VIDEO -->
+         <video width="760" height="460" autoplay muted loop playsinline>
+          <source src="assets/corporate-logo/website-live-view.mov" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+        <!-- FOR THE PLAY SPEED OF THE VIDEO -->
+        <script>
+          const video = document.querySelector('video');
+          video.playbackRate = 2.5;
+        </script>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TYPOGRAPHY -->
+<div class="modal fade" id="modal6">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-center">Circo Corazon</h2>
+      </div>
+      <div class="modal-body">
+        <h6 class="modal-subtitle"><b>The main deliverable:</b>
+          <br>To design an original typeface from scratch.
+          <br>
+          <br>
+          <b>What I delivered:</b><br>
+          I created Circo Corazón, a custom display typeface that merges playful shapes with romantic curves.
+          <br>
+          <br>
+          The name is a blend of two words:
+          <br>
+          <b>“Corazón”</b> – Spanish for heart, reflecting the affectionate, soft curves of each letterform.
+          <br>
+          <b>“Circo”</b> – from the Italian word for circle, hinting at the rounded, fluid motion of the design.
+          <br>
+          <br>
+          The result is a whimsical yet structured alphabet that feels both dynamic and elegant. Its unique heart-inspired curves and circular strokes make it perfect for expressive titles, posters, and editorial use.</h6>
+        <img src="assets/typography/main.jpg">
+        <img src="assets/typography/sketch2.jpg" alt="font sketch">
+        <img src="assets/typography/purpose-3.jpg" alt="purpose">
+        <img src="assets/typography/peg4.jpg" alt="pegs">  
+        <img src="assets/typography/regular5.jpg" alt="regular"> 
+        <img src="assets/typography/bold6.jpg" alt="bold">  
+        <img src="assets/typography/black7.jpg" alt="black">
+        <img src="assets/typography/quote8.jpg" alt="poster">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".slider-img").on("click", function () {
+      $(".slider-img").not(this).removeClass("active");
+      $(this).toggleClass("active");
+    });
+  });
+</script>
+<!-- PROJECT SLIDER WITH MODALS END -->
+
+    <!-- FOOTER START -->
+    <section class="container">
+        <section class="footer">
+          <section class="newsletter">
+            <section class="newsletter-left">
+              <h2>Every idea starts with a sketch.</h2>
+              <h1>Let's chat!</h1>
+            </section>
+            <section class="newsletter-right">
+              <section class="newsletter-input">
+                <input type="text" placeholder="Enter your email address" />
+                <button>Inquire</button>
+              </section>
+            </section>
+          </section>
+  
+          <section class="footer-content" id="footer-info">
+            <section class="footer-main">
+              <h2>Jessica Abad</h2>
+              <p>Graphic & Web Designer</p>
+              <section class="social-links">
+                <a href="#"><i class="ph-fill ph-instagram-logo"></i></a>
+                <a href="#"><i class="ph-fill ph-twitter-logo"></i></a>
+                <a href="#"><i class="ph-fill ph-tiktok-logo"></i></a>
+                <a href="#"><i class="ph-fill ph-facebook-logo"></i></a>
+              </section>
+            </section>
+            <section class="links">
+                <p>Navigation</p>
+                <a href="" class="link">Home</a>
+                <a href="" class="link">About</a>
+                <a href="contact.html" class="link">Contact</a>
+              </section>
+            <section class="links">
+              <p>Contact Info</p>
+              <a href="" class="link">+1 437 8386763</a>
+              <a href="" class="link">abadjessicam@outlook.com</a>
+              <a href="" class="link">Ontario, Canada</a>
+            </section>
+          </section>
+        </section>
+      </section>
+    <!-- FOOTER END -->
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="main.js"> </script>
+</body>
+  </body>
+</html>
