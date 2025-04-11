@@ -39,10 +39,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
   margin: 0;
   padding: 0;
-  /* background-color: #000000; */
   color: #1e1e24;
   font-family: sans-serif;
   font-size: 3em;
